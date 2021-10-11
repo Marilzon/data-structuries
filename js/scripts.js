@@ -1,14 +1,4 @@
 // Arrays itarations
-const weekTemperature = [
-  '31',
-  '20',
-  '39',
-  '35',
-  '28.9',
-  '36',
-  '26',
-];
-
 const daysOfWeek = [
   'Synday',
   'Monday',
@@ -19,12 +9,21 @@ const daysOfWeek = [
   'Saturday'
 ];
 
+const dayTemperature = [
+  '31',
+  '20',
+  '39',
+  '35',
+  '28.9',
+  '36',
+  '26',
+];
+
 for (let key in daysOfWeek) {
-  console.log(`${weekTemperature[key]} ºC at ${daysOfWeek[key]}`);
+  console.log(`${dayTemperature[key]} ºC at ${daysOfWeek[key]}`);
 }
 
-// Arrays methods
-
+/* Arrays methods */
 // array.push(element) add to last key and array.unshift() add to first key
 // array.pop() remove last key and array.shift() remove first key
 // array.splice(initial position , each positions) cut x positions
@@ -39,3 +38,5 @@ for (let i = 0; i > -6; i--) {
   numbers.unshift(i); /* loop to increment values to array */
 }
 console.log(numbers);
+
+//
