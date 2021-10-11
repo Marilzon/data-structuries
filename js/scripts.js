@@ -1,11 +1,23 @@
-var monthTemperature = [];
+var weekTemperature = [
+  '31',
+  '20',
+  '39',
+  '35',
+  '28.9',
+  '36',
+  '26',
+];
 
-monthTemperature[0] = 31.9;
-monthTemperature[1] = 35.6;
-monthTemperature[2] = 42;
-monthTemperature[3] = 38;
-monthTemperature[4] = 25.5;
+var daysOfWeek = [
+  'Synday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday'
+];
 
-for (key in monthTemperature) {
-  console.log(`${monthTemperature[key]}ºC`);
+for (key in daysOfWeek) {
+  console.log(`${weekTemperature[key]} ºC at ${daysOfWeek[key]}`);
 }
