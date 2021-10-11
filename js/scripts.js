@@ -37,4 +37,3 @@ for (let i = 0; i > -6; i--) {
   numbers.unshift(i); /* loop to increment values to array */
 }
 console.log(numbers);
-
