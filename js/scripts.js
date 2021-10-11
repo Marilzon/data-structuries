@@ -1,4 +1,4 @@
-var weekTemperature = [
+const weekTemperature = [
   '31',
   '20',
   '39',
@@ -8,7 +8,7 @@ var weekTemperature = [
   '26',
 ];
 
-var daysOfWeek = [
+const daysOfWeek = [
   'Synday',
   'Monday',
   'Tuesday',
@@ -18,6 +18,6 @@ var daysOfWeek = [
   'Saturday'
 ];
 
-for (key in daysOfWeek) {
+for (let key in daysOfWeek) {
   console.log(`${weekTemperature[key]} ºC at ${daysOfWeek[key]}`);
 }
