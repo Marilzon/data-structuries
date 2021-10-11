@@ -1,3 +1,4 @@
+// Arrays itarations
 const weekTemperature = [
   '31',
   '20',
@@ -21,14 +22,19 @@ const daysOfWeek = [
 for (let key in daysOfWeek) {
   console.log(`${weekTemperature[key]} ºC at ${daysOfWeek[key]}`);
 }
-//
+
+// Arrays methods
+
+// array.push(element) add to last key and array.unshift() add to first key
+// array.pop() remove last key and array.shift() remove first key
+
 const numbers = [];
 for (let i = 0; i < 6; i++) {
-  numbers.push(i); /* Auto incrementing values to array */
+  numbers.push(i); /* loop to increment values to array */
 }
 
 for (let i = 0; i > -6; i--) {
-  numbers.unshift(i); /* Auto incrementing valus to array */
+  numbers.unshift(i); /* loop to increment values to array */
 }
-
 console.log(numbers);
+
